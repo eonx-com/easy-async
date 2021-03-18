@@ -1,0 +1,37 @@
+{
+    "name": "eonx-com/easy-async",
+    "description": "Makes dealing with async processes easier",
+    "type": "symfony-bundle",
+    "license": "MIT",
+    "require": {
+        "php": "^7.2",
+        "eonx-com/easy-event-dispatcher": "^3.1",
+        "eonx-com/easy-pagination": "^3.1",
+        "eonx-com/easy-random": "^3.1",
+        "nette/utils": "^3.1",
+        "nesbot/carbon": "^2.22"
+    },
+    "require-dev": {
+        "ramsey/uuid": "^3.9",
+        "doctrine/dbal": "^2.6",
+        "phpunit/phpunit": "^8.4 || ^9.5",
+        "symfony/symfony": "^4.4 || ^5.1.5",
+        "mockery/mockery": "^1.2",
+        "laravel/lumen-framework": "^5.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "EonX\\EasyAsync\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "EonX\\EasyAsync\\Tests\\": "tests"
+        }
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "3.1-dev"
+        }
+    }
+}
